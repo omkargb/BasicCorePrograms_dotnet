@@ -32,9 +32,41 @@ namespace CorePrograms
                         LeapYearCheck leap = new LeapYearCheck();
                         leap.ReadYear();
                         break;
-
+                case "3":
+                        PowerOfTwo power = new PowerOfTwo();
+                        power.takeInput();
+                        break;
+                case "4":
+                        HarmonicNumber num = new HarmonicNumber();
+                        num.TakeInput();
+                        break;
+                case "5":
+                        PrimeFactors pf = new PrimeFactors();
+                        pf.TakeInput();
+                        break;
+                case "6":
+                        Division div = new Division();
+                        div.TakeInput();
+                        break;
+                case "7":
+                        SwapTwoNumbers swap = new SwapTwoNumbers();
+                        swap.TakeInput();
+                        break;
+                case "8":
+                        EvenOrOdd eod = new EvenOrOdd();
+                        eod.TakeInput();
+                        break;
+                case "9":
+                        VowelOrConsonant vc = new VowelOrConsonant();
+                        vc.TakeInput();
+                        break;
+                case "10":
+                        LargestOfThreeNums large = new LargestOfThreeNums();
+                        large.TakeInput();
+                        break;
                 default:
-                    break;
+                        Console.WriteLine(" Enter valid option number. ");
+                        break;
             }
         }
     }
